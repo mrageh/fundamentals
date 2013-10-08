@@ -103,7 +103,13 @@ class HashesOneTest < Minitest::Test
     # Ruben Feeney
   end
 
-  def test_waiting_list_at_the_post_office
+  # At the DMV you have to pull a little
+  # number. It doesn't start from 0 every day
+  # it just begins where it ended the previous day.
+  # Also a lot of times people take two and then throw away
+  # one, or decide that they're fed up with waiting, and leave
+  # before they've had their turn.
+  def test_waiting_list_at_the_dmv
     skip
     people = {
       289 => "August Glover",
@@ -121,10 +127,10 @@ class HashesOneTest < Minitest::Test
     # able to look up the following people by
     # their queuing number.
     #
-    # Leila Little
-    # Mark Muller
-    # Aaron Mills
-    # August Glover
+    # Who has number 292?
+    # Who has number 306?
+    # Who has number 305?
+    # Who has number 289?
   end
 
   def test_birthdays_in_a_school_class
@@ -181,7 +187,7 @@ class HashesOneTest < Minitest::Test
     pets = {
       'Rex' => 'bulldog',
       'Ladybug' => 'poodle',
-      'Scotch' => 'Labrador'
+      'Scotch' => 'labrador'
     }
 
     # Now the family gets a new dog.
@@ -275,8 +281,8 @@ class HashesOneTest < Minitest::Test
     pets = {
       'Rex' => 'bulldog',
       'Ladybug' => 'poodle',
-      'Scotch' => 'Labrador',
-      'Ruby' => 'Labrador',
+      'Scotch' => 'labrador',
+      'Ruby' => 'labrador',
       'Diamond' => 'poodle',
       'Bones' => 'bulldog'
     }
@@ -295,8 +301,12 @@ class HashesOneTest < Minitest::Test
     assert_equal ['Ladybug', 'Diamond'], poodles
 
     # Your turn.
-    # Find all the Labradors.
-    # Find all the bulldogs.
+
+    # Loop through to find all the Labradors.
+    # Write an assertion to prove that you did it right.
+
+    # Loop through to find all the bulldogs.
+    # Write an assertion to prove that you did it right.
   end
 
   def test_books_by_publishing_year
@@ -321,7 +331,7 @@ class HashesOneTest < Minitest::Test
     # Now find all the books published in 1951.
   end
 
-  def test_birthdays_in_a_school_class
+  def test_birthdays_in_a_given_month
     skip
     fourth_grade = {
       "Macy" => "December 2",
