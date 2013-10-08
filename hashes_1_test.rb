@@ -97,7 +97,7 @@ class HashesOneTest < Minitest::Test
     # able to look up the following people's
     # phone numbers in the hash.
     #
-    # Augustin Tremblay
+    # Agustin Tremblay
     # Sarah Treutel
     # Christa Steuber
     # Ruben Feeney
