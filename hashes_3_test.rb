@@ -19,8 +19,10 @@ class HashesThreeTest < Minitest::Test
     # This is how we figure out what color house John lives in:
     house = nil
     neighborhood.each do |color, people|
-      if people.include?("John")
-        house = color
+      people.each do |name, age|
+        if name == "John"
+          house = color
+        end
       end
     end
     assert_equal 'yellow house', house
@@ -54,7 +56,7 @@ class HashesThreeTest < Minitest::Test
         end
       end
     end
-    expected = ["Frederic", "Barney", "Penelope", "Rosie", "Jim"]
+    expected = ["Frederic", "Barney", "Rosie", "Jim"]
     assert_equal expected.sort, kids.sort
 
     # Your turn.
