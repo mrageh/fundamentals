@@ -2,7 +2,7 @@ gem 'minitest'
 require 'minitest/autorun'
 require 'minitest/pride'
 
-class HashesFiveTest < Minitest::Test
+class HashesFourTest < Minitest::Test
 
   def test_transform_an_array_to_a_hash
     # This is the starting point.
