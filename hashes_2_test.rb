@@ -46,10 +46,10 @@ class HashesTwoTest < Minitest::Test
       end
     end
     assert_equal 'green house', house
-  end
 
-  # Your turn.
-  # Which house does Penelope live in?
-  # Which house does Jim live in?
+    # Your turn.
+    # Which house does Penelope live in?
+    # Which house does Jim live in?
+  end
 end
 
