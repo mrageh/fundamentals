@@ -2,33 +2,46 @@
 
 Exercises to grasp and practice fundamental concepts in Ruby.
 
+## Hashes
+
+Hashes have keys and values, and we can look up values
+easily if we have the key. (The inverse is not necessarily true.).
+
 ## Word
 
 Strings are everywhere. Let's munge them a bit.
 
-### Letter Scores in Scrabble
-
-```plain
-A, E, I, O, U, L, N, R, S, T       1
-D, G                               2
-B, C, M, P                         3
-F, H, V, W, Y                      4
-K                                  5
-J, X                               8
-Q, Z                               10
-```
-
-Or, for your copy/paste pleasure:
-
-```ruby
-{
-  "A"=>1, "B"=>3, "C"=>3, "D"=>2, "E"=>1, "F"=>4, "G"=>2, "H"=>4, "I"=>1, "J"=>8,
-  "K"=>5, "L"=>1, "M"=>3, "N"=>1, "O"=>1, "P"=>3, "Q"=>10, "R"=>1, "S"=>1, "T"=>1,
-  "U"=>1, "V"=>4, "W"=>4, "X"=>8, "Y"=>4, "Z"=>10
-}
-```
-
 ## Phrase
 
 More string stuff.
+
+## Anagram
+
+## Scrabble
+
+## Notes
+
+### Arrays vs Hashes
+
+```ruby
+def test_loop_in_array
+  people = ["Alice", "Bob", "Charlie"]
+
+  # wants one block parameter
+  people.each do |person|
+    person.inspect
+  end
+end
+```
+
+```ruby
+def test_loop_in_hash
+  people = {"Annie" => 39, "Jim" => 10, "Barney" => 12}
+
+  # wants two block parameters
+  people.each do |name, age|
+    "#{name} is #{age} years old"
+  end
+end
+```
 
