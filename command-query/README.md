@@ -16,31 +16,31 @@ These exercises focus on these two types of operations.
 
 ## Exercises
 
-- [x] `leather_chair_test.rb`
-- [x] `pills_test.rb`
-- [x] `floor_test.rb`
-- [x] `milk_bottle_test.rb`
-- [x] `person_test.rb`
-- [x] `door_test.rb`
-- [x] `teeth_test.rb`
-- [x] `music_test.rb`
-- [x] `drops_test.rb`
-- [x] `light_test.rb`
-- [x] `baby_test.rb`
-- [x] `kid_test.rb`
-- [x] `beers_test.rb`
-- [x] `teenager_test.rb`
-- [x] `adult_test.rb`
-- [x] `names_test.rb`
-- [x] `dog_test.rb`
-- [x] `water_test.rb`
-- [x] `appointments_test.rb`
-- [x] `yak_test.rb`
-- [x] `student_test.rb`
-- [x] `money_test.rb`
-- [x] `time_test.rb`
-- [x] `children_test.rb`
-- [x] `catalogue_test.rb`
+- `leather_chair_test.rb`
+- `pills_test.rb`
+- `floor_test.rb`
+- `milk_bottle_test.rb`
+- `person_test.rb`
+- `door_test.rb`
+- `teeth_test.rb`
+- `music_test.rb`
+- `drops_test.rb`
+- `light_test.rb`
+- `baby_test.rb`
+- `kid_test.rb`
+- `beers_test.rb`
+- `teenager_test.rb`
+- `adult_test.rb`
+- `names_test.rb`
+- `dog_test.rb`
+- `water_test.rb`
+- `appointments_test.rb`
+- `yak_test.rb`
+- `student_test.rb`
+- `money_test.rb`
+- `time_test.rb`
+- `children_test.rb`
+- `catalogue_test.rb`
 
 ## Go make up more
 
