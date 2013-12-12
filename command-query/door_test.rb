@@ -10,6 +10,7 @@ class DoorTest < Minitest::Test
   end
 
   def test_unlock_the_door
+    skip
     door = Door.new
     door.unlock
     refute door.locked?, "The door should now be unlocked."

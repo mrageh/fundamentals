@@ -10,6 +10,7 @@ class KidTest < Minitest::Test
   end
 
   def test_kid_gets_5_grams_from_eating_candy
+    skip
     kid = Kid.new
     kid.eat_candy
     assert_equal 5, kid.grams_of_sugar_eaten
@@ -19,11 +20,13 @@ class KidTest < Minitest::Test
   end
 
   def test_kid_is_not_hyperactive
+    skip
     kid = Kid.new
     refute kid.hyperactive?
   end
 
   def test_kid_is_hyperactive_after_60_grams_of_sugar
+    skip
     kid = Kid.new
     11.times { kid.eat_candy }
     refute kid.hyperactive?, "Not hyperactive yet..."
