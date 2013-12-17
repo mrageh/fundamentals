@@ -14,6 +14,7 @@ class DropsTest < Minitest::Test
     drops = Drops.new
     drops.drip
     assert_equal 1, drops.count
+    3.times { drops.drip }
+    assert_equal 4, drops.count
   end
-
 end

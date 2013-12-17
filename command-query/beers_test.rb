@@ -13,10 +13,10 @@ class BeersTest < Minitest::Test
     skip
     beers = Beers.new
 
-    beers.take_on_down_and_pass_it_around
+    beers.take_one_down_and_pass_it_around
     assert_equal 98, beers.inventory
 
-    53.times { beers.take_on_down_and_pass_it_around }
+    53.times { beers.take_one_down_and_pass_it_around }
     assert_equal 45, beers.inventory
   end
 
@@ -24,11 +24,11 @@ class BeersTest < Minitest::Test
     skip
     beers = Beers.new
 
-    43.times { beers.take_on_down_and_pass_it_around }
+    43.times { beers.take_one_down_and_pass_it_around }
     beers.restock
     assert_equal 99, beers.inventory
 
-    5.times { beers.take_on_down_and_pass_it_around }
+    5.times { beers.take_one_down_and_pass_it_around }
     beers.restock
     assert_equal 99, beers.inventory
   end
