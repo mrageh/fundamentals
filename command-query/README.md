@@ -38,7 +38,6 @@ These exercises focus on these two types of operations.
 - `yak_test.rb`
 - `student_test.rb`
 - `money_test.rb`
-- `time_test.rb`
 - `children_test.rb`
 - `catalogue_test.rb`
 
