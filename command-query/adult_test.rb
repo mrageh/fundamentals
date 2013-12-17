@@ -21,5 +21,8 @@ class AdultTest < Minitest::Test
 
     adult.consume_an_alcoholic_beverage
     refute adult.sober?, "Yeah, OK. The adult is drunk."
+
+    adult.consume_an_alcoholic_beverage
+    refute adult.sober?, "The adult doesn't get more sober from drinking more."
   end
 end
