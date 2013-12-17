@@ -1,0 +1,5 @@
+class Beers
+  def inventory
+    99
+  end
+end
