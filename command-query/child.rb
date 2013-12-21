@@ -1,12 +1,13 @@
 class Child
-  attr_reader :name
+  include Comparable
+  attr_reader :name, :age
 
   def initialize(name, age)
     @name = name
     @age  = age
   end
 
-  def sort
-    self.sort {|a, b| a.age <=> b.age }
+  def <=>(other)
+    other.age <=> self.age
   end
 end

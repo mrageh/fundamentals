@@ -14,7 +14,4 @@ class Children
     @kids << child
   end
 
-  def sort
-    @kids.sort {|k| k.age <=> k.age } 
-  end
 end
