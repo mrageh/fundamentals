@@ -4,7 +4,7 @@ class Catalogue
     @products = []
   end
   def cheapest
-    @products.first.name unless @products.empty?
+    @products.sort.first.name unless @products.empty?
   end
 
   def << (product)
