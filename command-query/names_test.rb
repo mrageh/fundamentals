@@ -10,14 +10,12 @@ class NamesTest < Minitest::Test
   end
 
   def test_longest_of_one
-    skip
     names = Names.new
     names << "Oda"
     assert_equal "Oda", names.longest
   end
 
   def test_longest_of_several
-    skip
     names = Names.new
     names << "Ann"
     names << "Alexandra"
