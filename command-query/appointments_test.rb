@@ -22,11 +22,11 @@ class AppointmentsTest < Minitest::Test
     skip
     slots = Appointments.new
     t1 = Time.new(2014, 6, 14, 16, 30)
-    t2 = Time.new(2014, 2, 28, 11)
-    t3 = Time.new(2014, 2, 28, 8, 30)
+    t2 = Time.new(2014, 2, 28, 8, 30)
+    t3 = Time.new(2014, 2, 28, 11)
     slots.at t1
     slots.at t2
     slots.at t3
-    assert_equal t3, slots.earliest
+    assert_equal t2, slots.earliest
   end
 end
