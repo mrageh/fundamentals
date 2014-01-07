@@ -27,3 +27,5 @@ end
 * `shovel_test.rb` - get acquainted with `<<`
 * `sparkly_test.rb` - fix the bug
 * `sparkly_hint_test.rb` - if you get stuck on the bug, try this
+* `reading_list_test.rb` - fix the bug
+* `reading_list_hint_test.rb` - if you get stuck on the bug, try this
