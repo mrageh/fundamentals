@@ -18,5 +18,15 @@ class FillInTheBlankTest < Minitest::Test
       raise failure
     end
   end
+
+  def maybe_equal(_, _)
+    begin
+      raise
+    rescue => e
+      failure = Exception.new("Replace `maybe_equal` with either `assert_equal` or `refute_equal`")
+      failure.set_backtrace e.backtrace[1..-1]
+      raise failure
+    end
+  end
 end
 
