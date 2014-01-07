@@ -41,13 +41,12 @@ class ShovelTest < FillInTheBlankTest
   end
 
   def test_shovel_on_fixnum
-    i = 1
-    i1 = i << 1
-    i2 = i << 2
-    i3 = i << 3
-    i4 = i << 4
-    i5 = i << 5
-    i6 = i << 6
+    i1 = 1 << 1
+    i2 = 1 << 2
+    i3 = 1 << 3
+    i4 = 1 << 4
+    i5 = 1 << 5
+    i6 = 1 << 6
 
     equal_to_what 'i1'
     equal_to_what 'i2'
@@ -56,10 +55,9 @@ class ShovelTest < FillInTheBlankTest
     equal_to_what 'i5'
     equal_to_what 'i6'
 
-    i = 7
-    i1 = i << 1
-    i2 = i << 2
-    i3 = i << 3
+    i1 = 7 << 1
+    i2 = 7 << 2
+    i3 = 7 << 3
     equal_to_what 'i1'
     equal_to_what 'i2'
     equal_to_what 'i3'
